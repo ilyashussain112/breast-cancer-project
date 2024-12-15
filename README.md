@@ -14,3 +14,11 @@ git clone [ Link ]
 
   git config --global user.email "abc@gmail.com"
   git config --global user.name "abc"
+
+  ## Virtual Env
+
+  python -m venev [ name ] ( .evn )
+
+  source .evn/Script/activate
+
+  deactivate
