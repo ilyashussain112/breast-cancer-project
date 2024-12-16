@@ -3,6 +3,6 @@ import pandas as pd
 class loader:
     def __init__(self):
         pass
-    def data_loader(self , path):
-        data = pd.read_csv(path)
-        return data
+    def df_loader(self , path):
+        df = pd.read_csv(path)
+        return df
