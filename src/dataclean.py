@@ -1,4 +1,4 @@
-from dataloading import loader
+from .dataloading import loader
 import pandas as pd
 PATH = r'artifacts\breast cancer.csv'
 load = loader()

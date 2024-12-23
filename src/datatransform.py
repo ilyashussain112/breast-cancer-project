@@ -1,6 +1,6 @@
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-from dataclean import Clean
+from .dataclean import Clean
 le = LabelEncoder()
 
 clean = Clean()

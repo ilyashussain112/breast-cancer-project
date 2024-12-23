@@ -1,8 +1,8 @@
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import GridSearchCV
+
 rf = RandomForestClassifier()
 
-from typing_extensions import ParamSpec
-from sklearn.model_selection import GridSearchCV
 class Model:
     def __init__(self):
         pass
