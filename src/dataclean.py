@@ -9,7 +9,7 @@ class Clean:
         pass
     
     def df_clean(self, df = df):
-        df.drop('Unnamed: 32', axis=1 , inplace=True)
+        df.drop(['Unnamed: 32', 'id'], axis=1 , inplace=True)
         df = df.dropna()
         df = df.drop_duplicates()
         print (df.shape)
