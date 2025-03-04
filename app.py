@@ -56,9 +56,9 @@ def home():
 
         a = prediction(data=array)
         if a[0] == 1:
-            a = "sajeel"
+            a = "positive"
         else:
-            a = "abc"
+            a = "no"
 
         return render_template('index.html', name=a, columns=col)
     

@@ -17,7 +17,7 @@ git clone [ Link ]
 
   ## Virtual Env
 
-  python -m venev [ name ] ( .evn )
+  python -m venv [ name ] ( .evn )
 
   source .evn/Script/activate
 
